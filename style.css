@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+@keyframes cherryy {
+    0%{
+        width: 250px;
+        height: 250px;
+        background-color: aqua;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+    25%{
+        width: 250px;
+        height: 250px;
+        background-color: pink;
+        left: 500px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+    }
+    50%{
+        width: 250px;
+        height: 250px;
+        background-color: black;
+        left: 500px;
+        top: 500px;
+        right: 0;
+        bottom: 0;
+    }
+    75%{
+        width: 250px;
+        height: 250px;
+        background-color: brown;
+        top: 500px;
+        left: 0;
+        right: 500px;
+        bottom: 0;
+    }
+    100%{
+        width: 250px;
+        height: 250px;
+        background-color: orange; 
+        top: 0;
+        left: 0;
+        right: 500px;
+        bottom: 500px;  
+    }
+
+}
+.box{
+    width: 250px;
+    height: 250px;
+    background-color: aqua;
+    position: relative;
+    animation: cherryy 2s  1s 2  alternate;
+    
+}
